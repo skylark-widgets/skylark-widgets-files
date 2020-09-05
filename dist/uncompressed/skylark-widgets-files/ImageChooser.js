@@ -87,7 +87,7 @@ define([
 								readImageFile(files[0]);
 							}
 						}   //, "image/*, .tga");
-					}
+					});
 				}
 			};
 
