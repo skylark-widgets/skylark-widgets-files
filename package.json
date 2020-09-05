@@ -1,0 +1,32 @@
+{
+  "name": "skylark-widgets-files",
+  "description": "The skylark file widgets library",
+  "version": "0.9.0",
+  "keywords": [
+    "skylark",
+    "skylarkui",
+    "files",
+    "widget"
+  ],
+  "homepage": "https://github.com/skylark-widgets/skylark-widgets-files/",
+  "author": "Hudaokeji, Inc.",
+  "scripts": {
+    "build": "sbundle build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skylark-widgets/skylark-widgets-files.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skylark-widgets/skylark-widgets-files/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "skylark-domx": "git+https://github.com/skylark-domx/skylark-domx.git#master",
+    "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git#master",
+    "skylark-widgets-base": "git+https://github.com/skylark-widgets/skylark-widgets-base.git#master"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}
