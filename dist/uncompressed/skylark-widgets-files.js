@@ -115,6 +115,8 @@ define('skylark-widgets-files/ImageChooser',[
 		{
 			Widget.prototype._construct.call(this, parent, "div");
 
+			var skin = this.getSkin();
+
 			//Image
 			this.img = document.createWidget("img");
 			this.img.style.visibility = "inherit";
@@ -125,7 +127,8 @@ define('skylark-widgets-files/ImageChooser',[
 			this.img.style.width = "100%";
 			this.img.style.height = "100%";
 			this.img.style.objectFit = "contain";
-			this.img.style.backgroundImage = "url(\"" + Global.FILE_PATH + "alpha.png\")";
+			//this.img.style.backgroundImage = "url(\"" + Global.FILE_PATH + "alpha.png\")";
+			this.img.style.backgroundImage = "url(\"" + skin.alphaImageUrl + "\")";
 			this.img.style.backgroundRepeat = "repeat";
 			this.img.style.backgroundSize = "120px 120px";
 			this._elm.appendChild(this.img);
