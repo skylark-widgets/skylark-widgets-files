@@ -25,7 +25,7 @@ define([
 			var skin = this.getSkin();
 
 			//Image
-			this.img = document.createWidget("img");
+			this.img = document.createElement("img");
 			this.img.style.visibility = "inherit";
 			this.img.style.position = "absolute";
 			this.img.style.borderStyle = "none";
