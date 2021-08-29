@@ -1,6 +1,6 @@
 define([
 	"./files",
-	"./ImageChooser"
+	"./image-chooser"
 ],function(files){
 	return files;
 })

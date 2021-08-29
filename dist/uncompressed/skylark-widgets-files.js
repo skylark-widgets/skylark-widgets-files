@@ -91,8 +91,8 @@ define('skylark-widgets-files/files',[
 ],function(skylark){
 	return skylark.attach("widgets.files",{});
 });
-define('skylark-widgets-files/ImageChooser',[
-	"skylark-widgets-base/Widget",
+define('skylark-widgets-files/image-chooser',[
+	"skylark-widgets-base/widget",
     "skylark-io-diskfs/select",
     "./files"
 ],function(
@@ -248,7 +248,7 @@ define('skylark-widgets-files/ImageChooser',[
 });
 define('skylark-widgets-files/main',[
 	"./files",
-	"./ImageChooser"
+	"./image-chooser"
 ],function(files){
 	return files;
 });

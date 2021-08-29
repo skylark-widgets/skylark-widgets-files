@@ -1,5 +1,5 @@
 define([
-	"skylark-widgets-base/Widget",
+	"skylark-widgets-base/widget",
     "skylark-io-diskfs/select",
     "./files"
 ],function(

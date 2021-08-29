@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-widgets/skylark-widgets-files/
  * @license MIT
  */
-define(["./files","./ImageChooser"],function(e){return e});
+define(["./files","./image-chooser"],function(e){return e});
 //# sourceMappingURL=sourcemaps/main.js.map
